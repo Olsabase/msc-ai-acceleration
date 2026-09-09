@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data & Large Weights (Crucial for Raschka's datasets)
+*.csv
+*.json
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# Secrets & Keys (Crucial for Huyen's API work)
+.env
+.env.local
